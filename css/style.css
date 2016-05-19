@@ -3226,6 +3226,9 @@ footer > .container {
     margin-bottom: 0;
   }
 }
+.header-1-sub .pt-page-1 .background {
+  background-image: url("../img/ship.jpg");
+}
 /* Header 3 */
 .header-3 {
   height: auto;
@@ -3253,7 +3256,7 @@ footer > .container {
   background-position: 0 25%;
 }
 #header-3-sub-outsourcing-development .background {
-  background-image: url("../img/Hawaii_001.jpg");
+  background-image: url("../img/landscape.jpg");
   background-position: 0 100%;
 }
 @media (max-width: 768px) {
@@ -3306,18 +3309,6 @@ footer > .container {
 .content-10 .features .box {
   padding-left: 0;
 }
-.bg-image-workspace-1 {
-  background-image: url("../img/workspace_01.png");
-}
-.bg-image-workspace-2 {
-  background-image: url("../img/workspace_02.png");
-}
-.bg-align-left-center {
-  background-position: 10% 50%;
-}
-.bg-align-right-center {
-  background-position: 90% 50%;
-}
 .footer-10 {
   margin-top: 72px;
 }
@@ -3330,14 +3321,10 @@ footer {
   background-color: #363936;
 }
 footer .slogan {
-  position: absolute;
-  top: 50%;
-  right: 0;
-  height: 30%;
-  margin-top: -11px;
-  color: #ffffff;
   font-size: 22px;
-  line-height: 22px;
+  line-height: 130px;
+  color: #ffffff;
+  text-align: center;
 }
 .footer-1 {
   padding-top: 0;
@@ -3391,4 +3378,7 @@ footer .slogan {
   margin-left: auto;
   margin-right: auto;
   display: block;
+}
+.float-right {
+  float: right;
 }
